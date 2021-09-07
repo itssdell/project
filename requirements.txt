@@ -1,0 +1,13 @@
+Pre-conditions: Expected currency rate UAH to USD only.
+
+US01.01: As a User I want to see currency rate history so that I could see rate fluctuations.
+
+Acceptance criteria:
+	User sees a page with a chart of stored currency rates (or an empty page if database is empty).
+
+US01.02: As a User I want to be able to save currency rate.
+
+Acceptance criteria:
+	User sees a form to create and save currency rate for specific date.
+	User can set rate and date. All the fields are mandatory.
+	User can save entered rate for specific date. After saving chart refreshes.
